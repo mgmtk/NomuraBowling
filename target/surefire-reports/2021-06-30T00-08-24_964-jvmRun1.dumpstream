@@ -1,0 +1,12 @@
+# Created at 2021-06-30T00:09:35.054
+[SUREFIRE] std/in stream corrupted
+java.io.IOException: Command NOOP unexpectedly read Void data with length 4.
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:130)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2021-06-30T00:10:05.931
+Unexpected IOException with stream: 2021-06-30 00:10:05.930  WARN 46164 --- [           main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bowlingApplication': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.nomura.bowling.BowlingApplication$$EnhancerBySpringCGLIB$$adc1856b]: Constructor threw exception; nested exception is java.lang.NullPointerException
+
+
