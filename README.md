@@ -1,13 +1,13 @@
 # Nomura Bowling Challenge 
 
-##Description
+## Description
 This project is a coding challenge created by **Nomura Holdings Inc.**
 to create a single player interactive game of bowling. 
 This project was created as a command line interface and is executed as such.
 This is a Java 11 and Maven project but can be run using Java 8.
 
-##Run The Project
-###Execution Process
+## Run The Project
+### Execution Process
 * Create an empty folder on your local machine called NomuraBowling
 * Clone the project from this repo to your local computer using any source control application.
 * Open a terminal and execute the command _**cd /\*yourlocation\*/NomuraBolwing/target**_
